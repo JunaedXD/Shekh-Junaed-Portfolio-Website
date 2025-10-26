@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shekh Junaed</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Cal+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container comic-panel-dots">
+      <div class="navbar">
+        <a href="#">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#what-i-can-do">What i can do?</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="about" id="about">
+        <div class="profile-pic"></div>
+        <div class="about-me">
+          <p class="animated-text">
+            I’m a curious and creative individual who loves exploring science,
+            technology, and innovation. I enjoy learning new things, building
+            cool projects, and sharing ideas that make an impact. Whether it’s
+            coding, designing, or experimenting with new concepts, I always give
+            my best to bring imagination to life. Outside of tech, I like
+            relaxing with music and finding inspiration in everyday moments.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-section">
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-section">
+          <p>React, Node.js, Express</p>
+        </div>
+
+        <div class="skill-section">
+          <p>Python, Django</p>
+        </div>
+      </div>
+      <div class="projects-section" id="Projects">
+        <h2 class="projects-title">PROJECTS</h2>
+
+        <div class="projects-container">
+          <button class="shield-btn left"></button>
+
+          <div class="projects-slider">
+            <div class="project-card">
+              <h3>Arc Reactor System</h3>
+              <p>Energy core simulation inspired by Iron Man’s tech.</p>
+            </div>
+            <div class="project-card">
+              <h3>Vibranium Defense</h3>
+              <p>AI shield mechanism modeled after Captain America.</p>
+            </div>
+            <div class="project-card">
+              <h3>Jarvis UI</h3>
+              <p>Smart home interface using speech recognition.</p>
+            </div>
+            <div class="project-card">
+              <h3>Stark Drone</h3>
+              <p>Autonomous drone navigation prototype.</p>
+            </div>
+          </div>
+
+          <button class="shield-btn right"></button>
+        </div>
+      </div>
+      <div class="thor-section" id="what-i-can-do">
+        <h2 class="thor-title">⚡ What I Can Do</h2>
+
+        <div class="thor-powers">
+          <div class="power-card">
+            <h3>⚙️ Web Development</h3>
+            <p>
+              I build powerful, responsive, and creative websites using modern
+              tools like HTML, CSS, and JavaScript.
+            </p>
+          </div>
+
+          <div class="power-card">
+            <h3>⚡ Creativity & Design</h3>
+            <p>
+              I blend creativity and precision to design visually strong and
+              user-friendly interfaces.
+            </p>
+          </div>
+
+          <div class="power-card">
+            <h3>🔨 Problem Solving</h3>
+            <p>
+              Just like Thor wields Mjolnir, I tackle challenges with logic,
+              innovation, and determination.
+            </p>
+          </div>
+
+          <div class="power-card">
+            <h3>🌩️ Innovation</h3>
+            <p>
+              I constantly learn new technologies and turn bold ideas into
+              reality with skill and curiosity.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="ironman-contact" id="contact">
+        <h2 class="contact-title">🦾 Contact Me</h2>
+
+        <p class="contact-intro">
+          Let’s build something powerful together! Whether it’s a project,
+          collaboration, or just to say hi — drop me a message below.
+        </p>
+
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-form"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="f67e89fb-35c4-402e-9428-ea24801930af"
+          />
+
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="arc-btn">Submit Form</button>
+        </form>
+      </section>
+    </div>
+    <!-- Social Media Floating Icons -->
+    <div id="socialIcons">
+      <a href="https://x.com/AnnonKnown" target="_blank" title="Instagram">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a href="https://github.com/JunaedXD" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/shekhjunaedislegend/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+
+    <button id="deadpoolTopBtn" title="Back to Top">
+      <img src="assets/lpf-btn.png" alt="Deadpool Button" />
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
