@@ -606,6 +606,12 @@ body {
   .navbar{  
     display: none;
   }
+
+    #socialIcons{ 
+   top: 0; 
+   flex-direction: row;
+   left: auto;
+  }
 }
 
 
